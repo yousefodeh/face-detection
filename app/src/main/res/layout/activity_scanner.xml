@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FaceDetectionUtil.ScannerActivity"
+    tools:layout_editor_absoluteY="81dp">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black">
+    <com.yousef.facedetection.FaceDetectionUtil.common.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.yousef.facedetection.FaceDetectionUtil.common.GraphicOverlay
+            android:id="@+id/barcodeOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.yousef.facedetection.FaceDetectionUtil.common.CameraSourcePreview>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/btn_holder"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal|bottom">
+
+
+
+
+        <Button
+            android:id="@+id/btnCapture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:enabled="false"
+android:layout_marginBottom="12dp"
+            android:background="@drawable/ic_camera_black_24dp" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/video_rec_curr_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_holder"
+        android:layout_centerHorizontal="true"
+        android:text="00:00"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "460588067702",
+    "firebase_url": "https://facedetection-1b3d5.firebaseio.com",
+    "project_id": "facedetection-1b3d5",
+    "storage_bucket": "facedetection-1b3d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460588067702:android:41b076c663ca01f9",
+        "android_client_info": {
+          "package_name": "com.yousef.facedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460588067702-aqaf39bkur1v8cjsa1kfvea9kijapj9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6O4TxgAEpyQFwCDKkWYEppgt6qOoXdzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460588067702-aqaf39bkur1v8cjsa1kfvea9kijapj9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

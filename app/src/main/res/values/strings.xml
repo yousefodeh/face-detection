@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FaceDetect</string>
+    <string name="profile_item_email_header">Email</string>
+    <string name="profile_item_phone_header">Cellphone Number</string>
+    <string name="profile_item_password_header">Change Password</string>
+    <string name="profile_item_email_details">yousef@gmail.com</string>
+    <string name="profile_item_phone_details">0598610771</string>
+    <string name="profile_item_password_details">Tap to change password</string>
+    <string name="action_settings">Diplay all</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_search">Search</string>
+    <string name="action_home">Search</string>
+    <string name="action_profile">Delete</string>
+    <string name="action_inbox">Inbox</string>
+    <string name="action_logout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lbl_close">Close</string>
+    <string name="lbl_open">Open</string>
+</resources>
